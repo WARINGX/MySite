@@ -1,4 +1,4 @@
-package cn.luischen;
+package cn.lhd;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -29,16 +29,16 @@ public class Swagger2 {
                 .enable(swaggerShow)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("cn.luischen.controller"))
+                .apis(RequestHandlerSelectors.basePackage("cn.lhd.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Luis Site Swagger Restful API")
-                .description("更多Spring Boot相关文章请关注：https://luischen.com/")
-                .termsOfServiceUrl("https://luischen.com/")
-                .contact("Luis chen")
+                .title("lhd Site Swagger Restful API")
+                .description("")
+                .termsOfServiceUrl("")
+                .contact("lhd")
                 .version("1.0")
                 .build();
     }

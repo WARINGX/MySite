@@ -33,7 +33,7 @@ public class WebLogAspect {
 
     ThreadLocal<Long> startTime = new ThreadLocal<>();
 
-    @Pointcut("execution(public * cn.luischen.controller..*.*(..))")
+    @Pointcut("execution(public * cn.lhd.controller..*.*(..))")
     public void webLog(){}
 
 
